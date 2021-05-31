@@ -13,7 +13,8 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	pip install --upgrade pip && pip install -r requirements.txt
+	pip3 install --upgrade --no-binary pip3 setuptools wheel --use-pep517 &&\
+	pip3 install -r requirements.txt
 
 test:
 	# Additional, optional, tests could go here
