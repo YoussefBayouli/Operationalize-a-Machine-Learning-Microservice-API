@@ -8,5 +8,7 @@ pandas
 python-dateutil
 pytz
 scikit-learn
+scipy
 six
 Werkzeug
+pylint
