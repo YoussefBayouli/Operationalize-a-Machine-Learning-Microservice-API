@@ -4,10 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="spacegeekops/ml_project:latest"
+dockerpath="spacegeekops/ml_project"
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run ml_projectservice --image=$dockerpath --port=80
+sudo docker login
+kubectl run mlprojectservice --image=$dockerpath --port=80
 echo 'Step2 done'
 # Step 3:
 # List kubernetes pods
@@ -16,5 +17,5 @@ kubectl get pods
 echo 'step 3 done'
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward ml_projectservice 8000:80
-echo 'step 4 done
+kubectl port-forward mlprojectservice 8000:80
+echo 'step 4 done'
