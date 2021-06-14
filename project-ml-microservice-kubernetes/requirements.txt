@@ -7,7 +7,7 @@ numpy
 pandas
 python-dateutil
 pytz
-scikit-learn==0.20.2
+scikit-learn
 scipy
 six
 Werkzeug
