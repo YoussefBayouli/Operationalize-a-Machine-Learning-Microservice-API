@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![Operationalize-a-Machine-Learning-Microservice-API](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/YoussefBayouli/Operationalize-a-Machine-Learning-Microservice-API/28/workflows/81d63cc8-575d-4f9b-afe9-ccc10c827104/jobs/28)
 
 ## Project Overview
 
